@@ -42,6 +42,8 @@ Microcontroladores estão em **quase tudo** hoje em dia:
   - **Comunicação**: UART, SPI, I²C.  
   - **Vantagem**: Facilidade de uso, grande comunidade.  
 
+<center><img src="img/arduino.png" alt="Arduino"></center>
+
 ### **2. BBC micro:bit (nRF51822)**  
 - **Usos**: Educação, projetos simples com sensores integrados.  
 - **Especificações**:  
@@ -49,7 +51,10 @@ Microcontroladores estão em **quase tudo** hoje em dia:
   - **Memória**: 256KB Flash, 16KB RAM.  
   - **Portas**: 25 I/O, 3 ADC, Bluetooth.  
   - **Extras**: Matriz de LEDs, acelerômetro, bússola.  
-  - **Vantagem**: Ideal para crianças e iniciantes.  
+  - **Vantagem**: Ideal para crianças e iniciantes. 
+
+<center><img src="img/microbit.png" alt="Microbit"></center>
+
 
 ### **3. ESP32 (Xtensa LX6 / RISC-V)**  
 - **Usos**: IoT, Wi-Fi/Bluetooth, automação.  
@@ -60,6 +65,8 @@ Microcontroladores estão em **quase tudo** hoje em dia:
   - **Comunicação**: Wi-Fi, Bluetooth, SPI, I²C.  
   - **Vantagem**: Custo-benefício para projetos conectados.  
 
+<center><img src="img/esp32.jpg" alt="ESP32"></center>
+
 ### **4. Raspberry Pi Pico W (RP2040)**  
 - **Usos**: Automação, robótica, projetos avançados.  
 - **Especificações**:  
@@ -68,6 +75,9 @@ Microcontroladores estão em **quase tudo** hoje em dia:
   - **Portas**: 26 GPIO, 3 ADC, 16 PWM.  
   - **Comunicação**: Wi-Fi, UART, SPI, I²C.  
   - **Vantagem**: Alto desempenho por baixo custo.  
+
+<center><img src="img/raspberry.png" alt="Raspberry PI PICO W"></center>
+
 
 ---
 
