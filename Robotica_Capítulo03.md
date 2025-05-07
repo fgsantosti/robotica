@@ -42,7 +42,7 @@ Microcontroladores estão em **quase tudo** hoje em dia:
   - **Comunicação**: UART, SPI, I²C.  
   - **Vantagem**: Facilidade de uso, grande comunidade.  
 
-<center><img src="img/arduino.png" alt="Arduino"></center>
+<center><img src="img/arduino_new.png" alt="Arduino"></center>
 
 ### **2. BBC micro:bit (nRF51822)**  
 - **Usos**: Educação, projetos simples com sensores integrados.  
