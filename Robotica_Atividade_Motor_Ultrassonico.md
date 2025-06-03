@@ -73,7 +73,6 @@ while True:
 print("Finished.
 ```
 
-Vou explicar passo a passo como os alunos podem realizar cada uma das 5 atividades, incluindo os materiais necessários, montagem e funcionamento do código:
 
 ---
 
