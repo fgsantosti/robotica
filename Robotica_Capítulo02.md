@@ -319,4 +319,192 @@ Circuitos miniaturizados que podem conter milhares de componentes em um único c
 ## Conclusão
 
 Este material fornece uma base sólida para entender os princípios da eletrônica aplicada à robótica. Com esses conceitos, é possível projetar e construir circuitos para controlar motores, sensores e outros dispositivos essenciais em projetos robóticos. Pratique montando circuitos simples no protoboard e explore as possibilidades criativas que a eletrônica oferece!
-   
+
+
+
+## Atividade 
+
+1. Smartphone Carregando  
+   Um carregador de smartphone fornece 5V e a corrente máxima é 2A. Se a resistência interna do cabo for 0,5Ω, qual é a queda de tensão real no cabo? 
+
+## ✅ Lei de Ohm
+
+### 1. Smartphone Carregando
+**Dados:**
+\( I = 2A \), \( R = 0,5\Omega \)
+
+**Fórmula:**
+$$
+V = I \cdot R
+$$
+
+**Cálculo:**
+$$
+V = 2 \cdot 0,5 = 1V
+$$
+
+✅ **Resposta:** Queda de tensão = **1V**
+
+---
+2. Fone de Ouvido Bluetooth  
+   Um fone sem fio tem uma resistência de 32Ω e opera com 3,7V (tensão da bateria). Qual a corrente que passa pelo fone? 
+
+### 2. Fone Bluetooth
+**Dados:**
+\( V = 3,7V \), \( R = 32\Omega \)
+
+**Fórmula:**
+$$
+I = \frac{V}{R}
+$$
+
+**Cálculo:**
+$$
+I = \frac{3,7}{32} \approx 0,115A
+$$
+
+✅ **Resposta:** Corrente ≈ **0,115A (115 mA)**
+
+---
+
+
+
+## ✅ Potência Elétrica
+
+1. Carregador Rápido  
+   Um carregador rápido de celular fornece 20W a 5V. Qual é a corrente máxima que ele pode entregar?  
+### 1. Carregador Rápido
+**Dados:**
+\( P = 20W \), \( V = 5V \)
+
+**Fórmula:**
+$$
+I = \frac{P}{V}
+$$
+
+**Cálculo:**
+$$
+I = \frac{20}{5} = 4A
+$$
+
+✅ **Resposta:** **4A**
+
+—
+2. Ventilador USB  
+   Um ventilador USB funciona a 5V e consome 0,5A. Qual é a potência em Watts?  
+
+### 2. Ventilador USB
+**Dados:**
+\( V = 5V \), \( I = 0,5A \)
+
+**Fórmula:**
+$$
+P = V \cdot I
+$$
+
+**Cálculo:**
+$$
+P = 5 \cdot 0,5 = 2,5W
+$$
+
+✅ **Resposta:** **2,5W**
+
+---
+
+
+## ✅ Corrente em Série
+
+1. Luzes de Natal em Série Se 10 lâmpadas de LED (cada uma com 0,05A) estão ligadas em série, qual é a corrente total do circuito?  
+### 1. Luzes de Natal
+**Em série, a corrente é a mesma:**
+
+✅ **Resposta:** **0,05A**
+
+---
+2. Baterias em Série Duas pilhas de 1,5V estão ligadas em série a um resistor de 10Ω. Qual é a corrente no circuito?  
+### 2. Baterias em Série
+**Dados:**
+- Tensão total: \( 1,5 + 1,5 = 3V \)
+- \( R = 10\Omega \)
+
+**Fórmula:**
+$$
+I = \frac{V}{R}
+$$
+
+**Cálculo:**
+$$
+I = \frac{3}{10} = 0,3A
+$$
+
+✅ **Resposta:** **0,3A**
+
+---
+1. USB Hub com Dispositivos Um hub USB alimenta um mouse (0,1A), um teclado (0,05A) e um pendrive (0,2A). Qual é a corrente total?  
+## ✅ Corrente em Paralelo
+
+### 1. USB Hub
+**Dados:**
+0,1A + 0,05A + 0,2A
+
+**Fórmula:**
+$$
+I_{total} = I_1 + I_2 + I_3
+$$
+
+**Cálculo:**
+$$
+I = 0,1 + 0,05 + 0,2 = 0,35A
+$$
+
+✅ **Resposta:** **0,35A**
+
+---
+2. Lâmpadas em Paralelo Três lâmpadas de 0,5A cada estão em paralelo. Qual é a corrente total se todas estiverem acesas?  
+### 2. Lâmpadas em Paralelo
+**Dados:**
+3 lâmpadas de 0,5A
+
+**Cálculo:**
+$$
+I = 0,5 + 0,5 + 0,5 = 1,5A
+$$
+
+✅ **Resposta:** **1,5A**
+
+---
+
+## ✅ Resistência em Paralelo
+
+1. Autofalantes em Paralelo Dois autofalantes têm resistências de 8Ω e 16Ω. Qual é a resistência equivalente se ligados em paralelo?  
+### 1. Autofalantes
+**Dados:**
+\( R_1 = 8\Omega \), \( R_2 = 16\Omega \)
+
+**Fórmula:**
+$$
+R_{eq} = \frac{R_1 \cdot R_2}{R_1 + R_2}
+$$
+
+**Cálculo:**
+$$
+R_{eq} = \frac{8 \cdot 16}{24} = \frac{128}{24} \approx 5,33\Omega
+$$
+
+✅ **Resposta:** **≈ 5,33Ω**
+
+---
+3. Bateria e Resistores Dois resistores (10Ω e 20Ω) estão em paralelo. Qual é a resistência equivalente?  
+### 2. Resistores (10Ω e 20Ω)
+**Dados:**
+\( R_1 = 10\Omega \), \( R_2 = 20\Omega \)
+
+**Cálculo:**
+$$
+R_{eq} = \frac{10 \cdot 20}{30} = \frac{200}{30} \approx 6,67\Omega
+$$
+
+✅ **Resposta:** **≈ 6,67Ω**
+
+---
+
