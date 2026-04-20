@@ -81,7 +81,7 @@ Os seguintes prefixos são utilizados para representar unidades (conforme Financ
 
 - A **potência (medida em Watt (W))** é a grandeza que determina a **velocidade** em que a energia elétrica é transformada em outras formas de **energia** (trabalho).
 
-- **Potência (P)**: A Unidade: Watt (W), (potência é igual a tensão multiplicado pela corrente). Calculada por $P = V * I$.
+- **Potência (P)**: A Unidade: Watt (W), (potência é igual a tensão multiplicado pela corrente). Calculada por $$P = V * I$$.
 
 
 - Exemplos: 
@@ -95,14 +95,14 @@ Os seguintes prefixos são utilizados para representar unidades (conforme Financ
 
 ### Lei de Ohm
 Relaciona tensão, corrente e resistência:
-$ V = I * R $ onde:
-- \( V \) = Tensão (V)
-- \( I \) = Corrente (A)
-- \( R \) = Resistência (Ω)
+$$V = I * R$$ onde:
+- $$\( V \)$$ = Tensão (V)
+- $$\( I \)$$ = Corrente (A)
+- $$\( R \)$$ = Resistência (Ω)
 
 É possível calcular também:
-- Resistência (R): $R=V/I$
-- Corrente (I): $I=V/R$
+- Resistência (R): $$R=V/I$$
+- Corrente (I): $$I=V/R$$
 
 ### Tipos de Corrente
 - **Corrente Contínua (CC)**: 
@@ -163,8 +163,8 @@ Resistores possuem faixas coloridas que indicam seu valor e tolerância:
 - **Potenciômetro**: Resistor variável ajustável manualmente.
 
 ### Associação de Resistores
-- **Série**: Resistência total é a soma das resistências individuais $R_{eq} = R_1 + R_2 + \dots $.
-- **Paralelo**: Para dois resistores: $ R_{eq} = \frac{R_1 \times R_2}{R_1 + R_2} $.
+- **Série**: Resistência total é a soma das resistências individuais $$R_{eq} = R_1 + R_2 + \dots$$.
+- **Paralelo**: Para dois resistores: $$R_{eq} = \frac{R_1 \times R_2}{R_1 + R_2}$$.
 
 
 Realize o cálculo para o Circuito Paralelo em exemplo:
@@ -271,8 +271,8 @@ Amplificam sinais ou funcionam como chaves eletrônicas.
 - **FET**: Porta (G), Dreno (D), Fonte (S).
 
 ### Parâmetros Importantes
-- $ h_{FE} $: Ganho de corrente.
-- $ V_{CE} $: Tensão coletor-emissor.
+- $h_{FE}$: Ganho de corrente.
+- $V_{CE}$: Tensão coletor-emissor.
 
 ## Relês
 
@@ -331,17 +331,13 @@ Este material fornece uma base sólida para entender os princípios da eletrôni
 
 ### 1. Smartphone Carregando
 **Dados:**
-\( I = 2A \), \( R = 0,5\Omega \)
+$$\( I = 2A \), \( R = 0,5\Omega \)$$
 
 **Fórmula:**
-$$
-V = I \cdot R
-$$
+$$V = I \cdot R$$
 
 **Cálculo:**
-$$
-V = 2 \cdot 0,5 = 1V
-$$
+$$V = 2 \cdot 0,5 = 1V$$
 
 ✅ **Resposta:** Queda de tensão = **1V**
 
@@ -351,17 +347,13 @@ $$
 
 ### 2. Fone Bluetooth
 **Dados:**
-\( V = 3,7V \), \( R = 32\Omega \)
+$$\( V = 3,7V \), \( R = 32\Omega \)$$
 
 **Fórmula:**
-$$
-I = \frac{V}{R}
-$$
+$$I = \frac{V}{R}$$
 
 **Cálculo:**
-$$
-I = \frac{3,7}{32} \approx 0,115A
-$$
+$$I = \frac{3,7}{32} \approx 0,115A$$
 
 ✅ **Resposta:** Corrente ≈ **0,115A (115 mA)**
 
@@ -375,17 +367,13 @@ $$
    Um carregador rápido de celular fornece 20W a 5V. Qual é a corrente máxima que ele pode entregar?  
 ### 1. Carregador Rápido
 **Dados:**
-\( P = 20W \), \( V = 5V \)
+$$\( P = 20W \), \( V = 5V \)$$
 
 **Fórmula:**
-$$
-I = \frac{P}{V}
-$$
+$$I = \frac{P}{V}$$
 
 **Cálculo:**
-$$
-I = \frac{20}{5} = 4A
-$$
+$$I = \frac{20}{5} = 4A$$
 
 ✅ **Resposta:** **4A**
 
@@ -395,17 +383,13 @@ $$
 
 ### 2. Ventilador USB
 **Dados:**
-\( V = 5V \), \( I = 0,5A \)
+$$\( V = 5V \), \( I = 0,5A \)$$
 
 **Fórmula:**
-$$
-P = V \cdot I
-$$
+$$P = V \cdot I$$
 
 **Cálculo:**
-$$
-P = 5 \cdot 0,5 = 2,5W
-$$
+$$P = 5 \cdot 0,5 = 2,5W$$
 
 ✅ **Resposta:** **2,5W**
 
@@ -424,18 +408,14 @@ $$
 2. Baterias em Série Duas pilhas de 1,5V estão ligadas em série a um resistor de 10Ω. Qual é a corrente no circuito?  
 ### 2. Baterias em Série
 **Dados:**
-- Tensão total: \( 1,5 + 1,5 = 3V \)
-- \( R = 10\Omega \)
+- Tensão total: $$\( 1,5 + 1,5 = 3V \)$$
+- $$\( R = 10\Omega \)$$
 
 **Fórmula:**
-$$
-I = \frac{V}{R}
-$$
+$$I = \frac{V}{R}$$
 
 **Cálculo:**
-$$
-I = \frac{3}{10} = 0,3A
-$$
+$$I = \frac{3}{10} = 0,3A$$
 
 ✅ **Resposta:** **0,3A**
 
@@ -448,14 +428,10 @@ $$
 0,1A + 0,05A + 0,2A
 
 **Fórmula:**
-$$
-I_{total} = I_1 + I_2 + I_3
-$$
+$$I_{total} = I_1 + I_2 + I_3$$
 
 **Cálculo:**
-$$
-I = 0,1 + 0,05 + 0,2 = 0,35A
-$$
+$$I = 0,1 + 0,05 + 0,2 = 0,35A$$
 
 ✅ **Resposta:** **0,35A**
 
@@ -466,9 +442,7 @@ $$
 3 lâmpadas de 0,5A
 
 **Cálculo:**
-$$
-I = 0,5 + 0,5 + 0,5 = 1,5A
-$$
+$$I = 0,5 + 0,5 + 0,5 = 1,5A$$
 
 ✅ **Resposta:** **1,5A**
 
@@ -479,17 +453,13 @@ $$
 1. Autofalantes em Paralelo Dois autofalantes têm resistências de 8Ω e 16Ω. Qual é a resistência equivalente se ligados em paralelo?  
 ### 1. Autofalantes
 **Dados:**
-\( R_1 = 8\Omega \), \( R_2 = 16\Omega \)
+$$\( R_1 = 8\Omega \), \( R_2 = 16\Omega \)$$
 
 **Fórmula:**
-$$
-R_{eq} = \frac{R_1 \cdot R_2}{R_1 + R_2}
-$$
+$$R_{eq} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
 **Cálculo:**
-$$
-R_{eq} = \frac{8 \cdot 16}{24} = \frac{128}{24} \approx 5,33\Omega
-$$
+$$R_{eq} = \frac{8 \cdot 16}{24} = \frac{128}{24} \approx 5,33\Omega$$
 
 ✅ **Resposta:** **≈ 5,33Ω**
 
@@ -497,14 +467,14 @@ $$
 3. Bateria e Resistores Dois resistores (10Ω e 20Ω) estão em paralelo. Qual é a resistência equivalente?  
 ### 2. Resistores (10Ω e 20Ω)
 **Dados:**
-\( R_1 = 10\Omega \), \( R_2 = 20\Omega \)
+$$\( R_1 = 10\Omega \), \( R_2 = 20\Omega \)$$
 
 **Cálculo:**
-$$
-R_{eq} = \frac{10 \cdot 20}{30} = \frac{200}{30} \approx 6,67\Omega
-$$
+$$R_{eq} = \frac{10 \cdot 20}{30} = \frac{200}{30} \approx 6,67\Omega$$
 
 ✅ **Resposta:** **≈ 6,67Ω**
 
 ---
+
+
 
