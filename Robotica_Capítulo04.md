@@ -63,7 +63,7 @@ Os exemplos abaixo utilizam a biblioteca **`picozero`**, que simplifica o contro
 
 #### Diagrama do Circuito
 
-> ![Circuito LED com Botão](./imagens/circuito_led_botao.png)
+> ![Circuito LED com Botão](./img/circuito_led_botao.png)
 
 #### Código
 
@@ -125,7 +125,7 @@ else:
 
 #### Diagrama do Circuito
 
-> ![Circuito Buzzer](./imagens/circuito_buzzer.png)
+> ![Circuito Buzzer](./img/circuito_buzzer.png)
 
 #### Código
 
@@ -170,7 +170,7 @@ while True:
 
 #### Diagrama do Circuito
 
-> ![Circuito Servo](./imagens/circuito_servo.png)
+> ![Circuito Servo](./img/circuito_servo.png)
 
 #### Código
 
