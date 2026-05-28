@@ -46,7 +46,73 @@ Os exemplos abaixo utilizam a biblioteca **`picozero`**, que simplifica o contro
 
 ---
 
-### Exemplo 1 — Buzzer Passivo (Alarme Sonoro)
+### Exemplo 1 — LED com Botão
+
+**Objetivo:** Controlar um LED com um botão — o LED acende quando o botão é pressionado e apaga quando solto.
+
+#### Conexões do Hardware
+
+| Componente | Pino do Componente     | Pino do Pico W |
+|------------|------------------------|----------------|
+| LED        | Anodo (+)              | GPIO 22        |
+| LED        | Catodo (–)             | GND            |
+| Botão      | Terminal 1             | GPIO 7         |
+| Botão      | Terminal 2             | GND            |
+
+> ℹ️ O resistor pull-up interno do Pico W é ativado via software (`Pin.PULL_UP`), portanto não é necessário resistor pull-up externo para o botão.
+
+#### Diagrama do Circuito
+
+> ![Circuito LED com Botão](./imagens/circuito_led_botao.png)
+
+#### Código
+
+```python
+# Objetivo do projeto: Controlar um LED com um botão
+# O LED acende quando o botão é pressionado e apaga quando solto
+#
+# Hardware e conexões utilizadas:
+#   LED: anodo (+) conectado ao GPIO 22, catodo (-) conectado ao GND
+#   Botão: um terminal conectado ao GPIO 7, outro terminal conectado ao GND
+#
+# Programador: Felipe Gonçalves 
+
+# importando a classe Pin para controlar os pinos GPIO
+# importando utime para utilizar funções de temporização
+from machine import Pin
+import utime
+
+# configurando o pino 22 como saída para controlar o LED
+led = Pin(22, Pin.OUT)
+
+# configurando o pino 7 como entrada com resistor pull-up interno
+# com pull-up: valor 0 = botão pressionado, valor 1 = botão solto
+boton = Pin(7, Pin.IN, Pin.PULL_UP)
+
+# loop principal — executa continuamente enquanto a placa estiver ligada
+while True:
+    # exibe no terminal o estado atual do botão (0 = pressionado, 1 = solto)
+    print("estado", boton.value())
+
+    # se o botão estiver pressionado (valor 0), acende o LED
+    if (boton.value() == 0):
+        led.value(1)
+        utime.sleep_ms(300)  # aguarda 300ms para evitar leituras duplicadas (debounce)
+
+    # se o botão estiver solto (valor 1), apaga o LED
+    if (boton.value() == 1):
+        led.value(0)
+        utime.sleep_ms(300)  # aguarda 300ms para evitar leituras duplicadas (debounce)
+
+# nota: o bloco 'else' abaixo nunca será executado pois o while True é infinito
+# seria acionado somente se a condição do while fosse falsa
+else:
+    led.value(0)  # garante que o LED seja apagado ao encerrar o loop
+```
+
+
+
+### Exemplo 2 — Buzzer Passivo (Alarme Sonoro)
 
 **Objetivo:** Testar um buzzer passivo para reproduzir um som de alarme em intervalos de um segundo.
 
@@ -59,8 +125,7 @@ Os exemplos abaixo utilizam a biblioteca **`picozero`**, que simplifica o contro
 
 #### Diagrama do Circuito
 
-
-> ![Circuito Buzzer](./img/circuito_buzzer.png)
+> ![Circuito Buzzer](./imagens/circuito_buzzer.png)
 
 #### Código
 
@@ -91,7 +156,7 @@ while True:
 
 ---
 
-### Exemplo 2 — Servo Motor (Movimentação de Braço)
+### Exemplo 3 — Servo Motor (Movimentação de Braço)
 
 **Objetivo:** Mover o braço do servo pelas posições mínima, central e máxima.
 
@@ -105,8 +170,7 @@ while True:
 
 #### Diagrama do Circuito
 
-
-> ![Circuito Servo](./img/circuito_servo.png)
+> ![Circuito Servo](./imagens/circuito_servo.png)
 
 #### Código
 
