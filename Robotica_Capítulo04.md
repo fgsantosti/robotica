@@ -59,8 +59,7 @@ Os exemplos abaixo utilizam a biblioteca **`picozero`**, que simplifica o contro
 
 #### Diagrama do Circuito
 
-> 📷 *Insira aqui a imagem do circuito para o Exemplo 1*
->
+
 > ![Circuito Buzzer](./img/circuito_buzzer.png)
 
 #### Código
@@ -106,8 +105,7 @@ while True:
 
 #### Diagrama do Circuito
 
-> 📷 *Insira aqui a imagem do circuito para o Exemplo 2*
->
+
 > ![Circuito Servo](./img/circuito_servo.png)
 
 #### Código
