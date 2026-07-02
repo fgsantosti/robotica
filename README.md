@@ -3,7 +3,7 @@
 ## Seu Laboratório Portátil de Computação Física
 
 <p align="center">
-  <img src="img/bitdoglab_logo.png" alt="Logo da BitDogLab" width="200">
+  <img src="./img/bitdoglab_logo.png" alt="Logo da BitDogLab" width="200">
 </p>
 
 > **"A melhor forma de aprender é fazendo."**
